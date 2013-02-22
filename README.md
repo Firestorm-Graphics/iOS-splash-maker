@@ -13,8 +13,7 @@ A Photoshop script to automatically generate properly sized splash screens for i
 
 ##Configuring which platforms to generate splash screens for
 
-1. Open `splash.js` in your favorite text editor (Notepad, TextEdit, Sublime Text) or Adobe's ExtendScript Toolkit (which comes bundled with Photoshop Extended)
-2. At the very beginning of the file you'll see the following:
+Open `splash.js` in your favorite text editor (Notepad, TextEdit, Sublime Text) or Adobe's ExtendScript Toolkit (which comes bundled with Photoshop Extended). At the very beginning of the file you'll see the following:
 
 ```javascript
 var use = {
@@ -25,7 +24,7 @@ var use = {
 };
 ```
 
-3. To toggle support for a platform, just change the corresponding `yes` to a `no`, or vice-versa.
+To toggle support for a platform, just change the corresponding `yes` to a `no`, or vice-versa.
 
 ##To do:
 
